@@ -1,0 +1,27 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# 这里留空，Subconverter 会把节点填进来
+proxies: []
+
+# 基本分组，先简单能出结果，再慢慢加你的策略组
+proxy-groups:
+  - name: "🚀 节点选择"
+    type: select
+    proxies:
+      - "♻️ 自动选择"
+      - "DIRECT"
+      - "REJECT"
+  - name: "♻️ 自动选择"
+    type: url-test
+    proxies: []
+    url: https://connectivitycheck.gstatic.com/generate_204
+    interval: 300
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,🚀 节点选择

@@ -48,31 +48,31 @@ function filter(node) {
 base_path = "base"
 
 # Clash config base used by the generator, supports local files/URL
-clash_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/clash_provider_test.yml"
+clash_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/clash_provider_test.yml"
 
 # Surge config base used by the generator, supports local files/URL
-surge_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/surge.conf"
+surge_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/surge.conf"
 
 # Surfboard config base used by the generator, supports local files/URL
-surfboard_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/Surfboard-General.conf"
+surfboard_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/Surfboard-General.conf"
 
 # Mellow config base used by the generator, supports local files/URL
-mellow_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/mellow.conf"
+mellow_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/mellow.conf"
 
 # Quantumult config base used by the generator, supports local files/URL
-quan_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/quan.conf"
+quan_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/quan.conf"
 
 # Quantumult X config base used by the generator, supports local files/URL
-quanx_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/quanx.conf"
+quanx_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/quanx.conf"
 
 # Loon config base used by the generator, supports local files/URL
-loon_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/loon.conf"
+loon_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/loon.conf"
 
 # Shadowsocks Android config base used by the generator, supports local files/URL
-sssub_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/all-base.tpl"
+sssub_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/all-base.tpl"
 
 # sing-box config base used by the generator, supports local files/URL
-singbox_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/refs/koyeb/base/base/singbox.json"
+singbox_rule_base = "https://raw.githubusercontent.com/huahuakan/Firefly-sub/refs/heads/main/base/base/singbox.json"
 
 # Proxy used to download rulesets or subscriptions, set to NONE or empty to disable it, set to SYSTEM to use system proxy.
 # Accept cURL-supported proxies (http:// https:// socks4a:// socks5://)
